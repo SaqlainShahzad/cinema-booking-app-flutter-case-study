@@ -1,103 +1,131 @@
-# 🎬 Prince Cinema — Full-Stack Cinema Management System
-
 <div align="center">
 
-![Cinema App Banner](screenshots/android/android_1.png)
+<img src="screenshots/android/android_1.png" width="100%"/>
 
-**A complete, production-ready cinema operations platform built for the modern multiplex.**  
-Two dedicated apps — one for customers, one for operators — working in perfect sync.
+# 🎬 Prince Cinema
+### Full-Stack Cinema Management System
 
-![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge)
-![License](https://img.shields.io/badge/License-Private-red?style=for-the-badge)
+**A complete, production-ready platform for modern cinema operations.**
+Two dedicated apps — one for your customers, one for your team.
+
+<br/>
+
+[![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://android.com)
+[![Status](https://img.shields.io/badge/Status-Live%20%26%20Production-brightgreen?style=for-the-badge)](#)
+[![Type](https://img.shields.io/badge/Type-Commercial%20Product-blue?style=for-the-badge)](#)
+[![License](https://img.shields.io/badge/Source-Private-red?style=for-the-badge)](#)
 
 </div>
 
 ---
 
+## 📌 Table of Contents
+
+- [Overview](#-overview)
+- [Cinema App — Customer Side](#-cinema-app--customer-experience)
+- [Admin Control App — Operator Side](#%EF%B8%8F-admin-control-app--operations-dashboard)
+- [App Architecture](#-app-architecture)
+- [Feature Highlights](#-feature-highlights)
+- [Screenshots](#-screenshots)
+- [Licensing & Acquisition](#-licensing--acquisition)
+
+---
+
 ## 📖 Overview
 
-**Prince Cinema** is a dual-app system designed to run every aspect of a cinema business — from customer-facing ticket booking to back-office analytics and staff management. The platform is purpose-built for cinema operators and supports real-world cinema workflows.
+**Prince Cinema** is a dual-app Android platform that digitizes and streamlines every aspect of running a cinema — from online seat booking to back-office revenue analytics. Built for real-world cinema operations, the system handles the complete ticket lifecycle, concession management, staff workflows, advertisement delivery, and financial reporting — all from a mobile-first interface.
 
-| App | Audience | Core Purpose |
-|-----|----------|-------------|
-| 🎟️ **Cinema App** | General Public | Browse movies, view schedules, book seats from dynamic seatmap, and get tickets |
-| 🎛️ **Admin Control** | Cinema Staff & Management | Manage movies, admits, revenue, advertisements, and settings |
+<br/>
 
-> **Note:** Source code is private. This repository documents the product's UI/UX, features, and business logic.
+| | App | Target Users | Purpose |
+|--|-----|-------------|---------|
+| 🎟️ | **Cinema App** | General Public | Browse movies, pick seats, book tickets, get confirmations |
+| 🎛️ | **Admin Control** | Cinema Staff & Management | Run daily operations, analytics, scheduling, and settings |
+
+> **This repository is a product showcase.** Source code is private and available for licensing. See [Licensing & Acquisition](#-licensing--acquisition).
 
 ---
 
 ## 📱 Cinema App — Customer Experience
 
-The customer-facing app delivers a premium movie booking experience with a sleek dark-themed interface.
+A premium, dark-themed booking experience designed to make every step — from discovery to confirmation — feel effortless.
 
-### 🏠 Home Screen
-<img src="screenshots/android/android_1.png" width="280" align="right"/>
+---
 
-- **Featured Movie Banner** — Full-screen promotional carousel with trailer button
-- **Today's Shows** — Quick-access horizontal scroll of current screenings
-- **Bottom Navigation** — Home · Schedule · Movies
-- Rich movie posters and branding throughout
+### 🏠 Home
+
+<img src="screenshots/android/android_1.png" width="270" align="right"/>
+
+The home screen serves as a dynamic launchpad for the cinema's current programme.
+
+- **Hero banner** — full-screen featured movie with genre label and Watch Trailer shortcut
+- **Today's Shows** — horizontal scroll of all currently screening movies
+- **Bottom navigation** — persistent access to Home, Schedule, and Movies
+- Poster-first visual design keeps the experience rich and cinematic
 
 <br clear="right"/>
 
 ---
 
-### 🎥 Movie Detail Page
-<img src="screenshots/android/android_2.png" width="280" align="right"/>
+### 🎥 Movie Detail
 
-Each movie page contains everything a customer needs to make a booking decision:
+<img src="screenshots/android/android_2.png" width="270" align="right"/>
 
-- Full movie poster with **Watch Trailer** button (YouTube integration)
-- Synopsis with "Read More" expand
+Every movie gets a dedicated detail page with everything a customer needs to commit to a booking.
+
+- Large poster with an embedded **Watch Trailer** button (YouTube)
+- Full synopsis with expandable "Read More"
 - Genre tags and runtime badge
-- Complete **Cast** list
-- Direct **View Schedule & Book** CTA
+- Complete cast listing
+- Prominent **View Schedule & Book** call-to-action
 
 <br clear="right"/>
 
 ---
 
-### 📅 Schedule & Show Browser
+### 📅 Schedule Browser
 
-<img src="screenshots/android/android_3.png" width="280" align="right"/>
-<img src="screenshots/android/android_4.png" width="280" align="right"/>
+<img src="screenshots/android/android_3.png" width="270" align="right"/>
+<img src="screenshots/android/android_4.png" width="270" align="right"/>
 
-- **Date-scrollable schedule** — browse Today, Tomorrow, and upcoming dates
-- Shows listed by movie with showtime chips
-- **Swipe-to-browse** movie carousel on the Movies tab
-- Real-time seat availability per show
+Customers can explore what's playing across multiple days without friction.
+
+- **Date selector** — scroll through Today, Tomorrow, and upcoming days
+- Shows grouped and listed with movie posters and showtimes
+- **Swipe carousel** on the Movies tab for browsing the full catalogue
+- Available seats update in real-time as bookings come in
 
 <br clear="right"/>
 
 ---
 
 ### 💺 Interactive Seat Map
-<img src="screenshots/android/android_5.png" width="280" align="right"/>
 
-One of the app's flagship features — a fully interactive hall layout:
+<img src="screenshots/android/android_5.png" width="270" align="right"/>
 
-- **Visual seat grid** showing the complete cinema hall
-- Seat categories: **Hall** (standard) · **Gallery** (premium)
-- Real-time status: Available · **Selected** (red) · **Gallery** (gold) · **Booked** (grey)
-- Running total updates as seats are selected
-- **Buy Tickets** button with live price calculation
+The standout feature of the booking flow — a live, visual hall layout.
+
+- Full grid view of the entire cinema hall
+- **Seat categories:** Hall (standard) and Gallery (premium), visually differentiated
+- **Colour-coded states:** Available · Selected · Gallery · Booked
+- Price total updates live as seats are tapped
+- Clean **Buy Tickets** button anchored at the bottom with a running cost display
 
 <br clear="right"/>
 
 ---
 
 ### ✅ Booking Confirmation
-<img src="screenshots/android/android_6.png" width="280" align="right"/>
 
-Post-booking flow is clean and informative:
+<img src="screenshots/android/android_6.png" width="270" align="right"/>
 
-- **Booking Confirmed** screen with unique reference (e.g. `BK-20260106-49991`)
+A reassuring, information-complete confirmation screen that closes the booking loop cleanly.
+
+- Clear **Booking Confirmed** status with a unique booking reference code
 - One-tap reference copy to clipboard
-- Full movie details: title, date, showtime
-- Customer contact info summary
-- Option to **download PDF ticket** or collect a printed ticket at the counter
+- Full booking summary: movie, date, and showtime
+- Customer contact details displayed for verification
+- Choice to **download a PDF ticket** or collect a printed ticket at the counter
 
 <br clear="right"/>
 
@@ -105,241 +133,285 @@ Post-booking flow is clean and informative:
 
 ## 🎛️ Admin Control App — Operations Dashboard
 
-A comprehensive back-office platform for cinema operators, organized into four major control modules accessible via a slide-out navigation drawer.
+A powerful, role-aware back-office platform organized into four control modules. Accessed via a slide-out navigation drawer, each module groups related actions to minimize taps and maximize operator efficiency.
 
 ---
 
 ### 🎬 MOVIES Control
-<img src="screenshots/admin/admin_8.jpeg" width="260" align="right"/>
 
-**3 Actions** — full movie lifecycle management:
+<img src="screenshots/admin/admin_8.jpeg" width="250" align="right"/>
 
-#### Add & Manage Movies
-<img src="screenshots/admin/admin_7.jpeg" width="260" align="right"/>
-<img src="screenshots/admin/admin_14.jpeg" width="260" align="right"/>
-
-- Add movies with: Name, Release Date, Genre, Duration, Description, Trailer Link (YouTube), Cast
-- Browse all 28+ movies with poster thumbnails, genre, runtime
-- Search by name or genre
-- Edit / Delete controls per movie
+The complete movie management hub — from adding a new title to scheduling its entire run.
 
 <br clear="right"/>
 
-#### Set Movie Schedule — Bulk Mode
-<img src="screenshots/admin/admin_6.jpeg" width="260" align="right"/>
+#### Add & Manage Movies
 
-- **Single Day** or **Bulk Schedule** mode
-- Bulk Mode: define a date range, select days of week (Mon–Sun), add multiple showtimes in one operation
-- Assign Screen / Hall per schedule
-- Set Hall price (PKR) and seat count — seat count is auto-locked from hall configuration
+<img src="screenshots/admin/admin_7.jpeg" width="250" align="right"/>
+<img src="screenshots/admin/admin_14.jpeg" width="250" align="right"/>
+
+- Add new movies with all metadata: title, release date, genre, duration, synopsis, YouTube trailer link, and cast
+- Browse the full movie catalogue with poster thumbnails and key details at a glance
+- Search by name or genre
+- Per-movie **Edit** and **Delete** controls
+
+<br clear="right"/>
+
+#### Set Movie Schedule
+
+<img src="screenshots/admin/admin_6.jpeg" width="250" align="right"/>
+
+- **Single Day** mode for one-off scheduling
+- **Bulk Schedule** mode to programme a movie across an entire date range in a single operation — select the range, pick days of the week, add showtimes, done
+- Assign a named Screen or Hall per schedule entry
+- Set ticket price and seat capacity — capacity auto-locks to the configured hall size
 
 <br clear="right"/>
 
 #### Manage Schedule
-- Update or remove existing showtimes
-- Full visibility into the upcoming schedule
+
+- View, edit, and remove any existing scheduled show
+- Full forward visibility into the upcoming programme
 
 ---
 
 ### 🎟️ ADMITS Control
-<img src="screenshots/admin/admin_2.jpeg" width="260" align="right"/>
 
-**2 Actions** — ticket booking and management:
+<img src="screenshots/admin/admin_2.jpeg" width="250" align="right"/>
+
+Everything related to ticket issuance and booking management in one place.
+
+<br clear="right"/>
 
 #### Admit Booking
-<img src="screenshots/admin/admin_5.jpeg" width="260" align="right"/>
 
-- Date selector with day-of-week display
-- Movie selection by date with all available showtimes
-- **Staff Booking** mode for complimentary/internal admissions
+<img src="screenshots/admin/admin_5.jpeg" width="250" align="right"/>
+
+- Staff can book tickets directly from the admin app on behalf of walk-in customers
+- Date and movie selector surfaces all available showtimes for the chosen day
+- Dedicated **Staff Booking** mode for internal and complimentary admissions — tracked separately from customer revenue
 
 <br clear="right"/>
 
 #### Admits Management
-<img src="screenshots/admin/admin_17.jpeg" width="260" align="right"/>
 
-- Full booking list with search — 258 bookings shown in demo
-- Filter by date range (e.g. Jan 01 – Jan 26)
-- Each booking card: Reference ID · Movie · Date · Showtime · Seats · Amount · Status badge (CONFIRMED)
-- Staff vs. customer booking distinction
+<img src="screenshots/admin/admin_17.jpeg" width="250" align="right"/>
+
+- Searchable, filterable list of all bookings across any date range
+- Filter by booking type, payment method, or date
+- Each record displays: reference ID, movie, date, showtime, seat count, amount, and confirmation status
+- Staff bookings are visually distinct from customer bookings throughout
 
 <br clear="right"/>
 
 ---
 
 ### 📊 ANALYTICS Control
-<img src="screenshots/admin/admin_4.jpeg" width="260" align="right"/>
 
-**3 Actions** — data-driven decision making:
+<img src="screenshots/admin/admin_4.jpeg" width="250" align="right"/>
+
+Three dedicated reporting tools that give management a complete picture of business performance.
+
+<br clear="right"/>
 
 #### Admit Reports
-<img src="screenshots/admin/admin_1.jpeg" width="260" align="right"/>
-<img src="screenshots/admin/admin_16.jpeg" width="260" align="right"/>
 
-Real-time KPI tiles at the top:
+<img src="screenshots/admin/admin_1.jpeg" width="250" align="right"/>
+<img src="screenshots/admin/admin_16.jpeg" width="250" align="right"/>
 
-| Metric | Value (Demo) |
-|--------|-------------|
-| Total Admits | 913 |
-| Revenue | Rs 546,000 |
-| Seats Sold | 1,034 |
-| Boxes Sold | 3 |
-
-- Searchable transaction table by name, movie, or reference
-- Filter by **Type** (Hall / Gallery / Box) and **Payment** method
-- Download: Daily · Weekly · Monthly · Overall Report
+- Top KPI tiles — total admits, revenue, seats sold, and box seats sold — always visible at a glance
+- Full transaction log searchable by customer name, movie, or booking reference
+- Filters: booking type (Hall / Gallery / Box) and payment method
+- Downloadable reports: **Daily · Weekly · Monthly · Overall**
 
 <br clear="right"/>
 
 #### Concession Reports
-<img src="screenshots/admin/admin_10.jpeg" width="260" align="right"/>
-<img src="screenshots/admin/admin_12.jpeg" width="260" align="right"/>
 
-- Revenue · Cost · Net Profit · Total transactions
-- **Business Day** window configurable (demo: 6:00 PM – 6:00 AM)
-- Period selector: Today / custom range
-- Itemized transaction log by type and time
-- Download: Daily · Monthly · Overall Report
+<img src="screenshots/admin/admin_10.jpeg" width="250" align="right"/>
+<img src="screenshots/admin/admin_12.jpeg" width="250" align="right"/>
+
+- Tracks revenue, cost, and net profit for all POS and concession sales
+- **Configurable Business Day window** — define the operating hours that constitute a "day" to match real cinema schedules rather than calendar midnight
+- Itemized transaction log with timestamps and sale type
+- Period selector: today, or any custom date range
+- Downloadable reports: **Daily · Monthly · Overall**
 
 <br clear="right"/>
 
 #### Profit Calculator
-<img src="screenshots/admin/admin_11.jpeg" width="260" align="right"/>
 
-Full P&L dashboard for a selected date range:
+<img src="screenshots/admin/admin_11.jpeg" width="250" align="right"/>
 
-| Source | Amount (Demo: Dec 27 – Jan 26) |
-|--------|-------------------------------|
-| Ticket Profit (50%) | Rs 86,250 |
-| POS & Concession Profit | Rs 19,131 |
-| Manual Adjustments | Rs 0 |
-| **Total Profit** | **Rs 1,05,381** |
-
-- Ticket Sales: 339 tickets · Rs 172,500 revenue
-- POS & Concession: Products + Rentals breakdown
-- Downloadable PDF report
+- Full P&L summary for any selected date range
+- Breaks down profit by source: Ticket Sales, POS & Concessions (Products + Rentals), and Manual Adjustments
+- Ticket profit calculated at the cinema's configured revenue-share percentage
+- Downloadable PDF summary report for accounting and ownership review
 
 <br clear="right"/>
 
 ---
 
 ### ⚙️ SETTINGS Control
-<img src="screenshots/admin/admin_13.jpeg" width="260" align="right"/>
 
-**4 Actions** — system configuration:
+<img src="screenshots/admin/admin_13.jpeg" width="250" align="right"/>
+
+System configuration and administration — four tools that keep the platform running correctly.
+
+<br clear="right"/>
 
 #### Manage Users
-- Add, edit, and deactivate staff accounts
-- Role-based access control
+
+- Create and manage staff accounts with individual credentials
+- Role-based access ensures each staff member only sees the modules relevant to their position
 
 #### Advertisement Management
-<img src="screenshots/admin/admin_3.jpeg" width="260" align="right"/>
 
-- 12 active ads in demo
-- Upload banner images with external URL links
-- Active / Hidden status toggle
-- Edit / Hide / Delete controls per ad
-- Ads displayed to customers in the cinema app
+<img src="screenshots/admin/admin_3.jpeg" width="250" align="right"/>
+
+- Upload and manage promotional banners that appear inside the customer-facing Cinema App
+- Each advertisement supports a banner image, a display title, and an external link
+- Toggle ads between **Active** and **Hidden** without permanently removing them
+- Full **Edit / Hide / Delete** controls per advertisement entry
 
 <br clear="right"/>
 
 #### Payment Methods
-<img src="screenshots/admin/admin_9.jpeg" width="260" align="right"/>
 
-- Manage accepted payment options (JazzCash, Bkash, Nagad, etc.)
-- Fields: Method Name · Account Number · Account Name · Icon type
-- 3 active payment methods in demo
+<img src="screenshots/admin/admin_9.jpeg" width="250" align="right"/>
+
+- Configure which payment options are presented to customers at checkout
+- Add any method with: name, account number, account holder name, and display icon
+- Supports any local wallet or payment service (e.g. JazzCash, Bkash, Nagad, cash)
+- Manage and update without requiring a code change or app update
 
 <br clear="right"/>
 
-#### Delete History (Data Management)
-<img src="screenshots/admin/admin_15.jpeg" width="260" align="right"/>
+#### Delete History
 
-A carefully guarded data cleanup tool with built-in safety mechanisms:
+<img src="screenshots/admin/admin_15.jpeg" width="250" align="right"/>
 
-- **Permanent Deletion** warning — irreversible action
-- **Auto-Protection**: Today's and future data is automatically protected from deletion
-- Safety Restrictions Active on: Future schedules · Advance bookings · Today's data · User accounts · Movies & Products
-- Flexible date range selector with quick presets (Yesterday, Last 7 Days)
+A safe, controlled tool for cleaning up old operational data.
+
+- Prominent warning screen — permanent deletion is never accidental
+- **Automatic data protection:** today's records and all future-dated entries are locked and cannot be selected for deletion regardless of the chosen range
+- Protected categories: future schedules, advance bookings, today's activity, user accounts, movies, and products
+- Flexible date range picker with quick-access presets for common cleanup tasks
 
 <br clear="right"/>
 
 ---
 
-## 🧭 Navigation & App Architecture
+## 🧭 App Architecture
 
 ```
-Admin Control App
+📱 Cinema App  (Customer-Facing)
+│
+├── 🏠 Home
+│   ├── Featured Movie Carousel
+│   └── Today's Shows
+│
+├── 🕐 Schedule
+│   └── Browse by Date & Showtime
+│
+└── 🎥 Movies
+    ├── Full Catalogue Browse
+    └── Movie Detail
+        ├── Trailer · Synopsis · Cast
+        └── Book Now
+            ├── Date & Time Selection
+            ├── Interactive Seat Map
+            └── Confirmation + PDF Ticket
+```
+
+```
+🎛️ Admin Control App  (Operator-Facing)
+│
 ├── 🎬 MOVIES
 │   ├── Add & Manage Movies
-│   ├── Set Movie Schedule (Single Day / Bulk)
+│   ├── Set Schedule ─── Single Day / Bulk Mode
 │   └── Manage Schedule
+│
 ├── 🎟️ ADMITS
-│   ├── Admit Booking
+│   ├── Admit Booking ── Customer + Staff Modes
 │   └── Admits Management
+│
 ├── 📊 ANALYTICS
-│   ├── Admit Reports
-│   ├── Concession Reports
-│   └── Profit Calculator
+│   ├── Admit Reports ────── Daily / Weekly / Monthly / Overall
+│   ├── Concession Reports ─ Configurable Business Day Window
+│   └── Profit Calculator ── Multi-Source P&L with Revenue Share
+│
 └── ⚙️ SETTINGS
     ├── Manage Users
-    ├── Advertisement
+    ├── Advertisement Management
     ├── Payment Methods
-    └── Delete History
-```
-
-```
-Cinema App (Customer)
-├── 🏠 Home (Featured + Today's Shows)
-├── 🕐 Schedule (Browse by Date)
-└── 🎥 Movies
-    └── Movie Detail → Seat Map → Booking Confirmation
+    └── Delete History ── Auto-Protection on Current & Future Data
 ```
 
 ---
 
-## ✨ Key Technical Highlights
+## ✨ Feature Highlights
 
-- **Real-time sync** between admin scheduling and customer-facing showtime availability
-- **Interactive seat map** with live booking state management
-- **Bulk scheduling engine** — one operation schedules across a full date range and multiple days of week
-- **Business Day** concept for concession reports (non-calendar day windows, e.g. 6 PM – 6 AM)
-- **Safe delete system** with automatic protection of current and future data
-- **Downloadable PDF reports** for Admits, Concessions, and Profit
-- **Role-aware booking** — staff bookings tracked separately from customer bookings
-- **PKR currency** support throughout with local payment gateway integration
+| Feature | Description |
+|---------|-------------|
+| 🗺️ **Interactive Seat Map** | Real-time visual hall layout with live booking state, seat categories, and dynamic pricing |
+| 📆 **Bulk Scheduling Engine** | Schedule a full movie run across a date range and multiple weekdays in a single operation |
+| 🕐 **Configurable Business Day** | Custom operating hour windows for accurate daily reporting that reflects real cinema schedules |
+| 📊 **Multi-Source P&L Calculator** | Combines ticket revenue share, POS, concessions, and manual adjustments into one P&L view |
+| 🛡️ **Safe Delete System** | Auto-protects current and future data — past records only, with confirmation gates |
+| 📄 **Multi-Level Downloadable Reports** | PDF and structured exports for admits, concessions, and profit at daily, monthly, and all-time levels |
+| 🎟️ **Staff Booking Mode** | Internal and complimentary bookings tracked separately from customer transactions |
+| 📢 **In-App Advertisement Delivery** | Admin-managed banners served live inside the customer-facing app — no update required |
+| 💳 **Flexible Payment Configuration** | Any local wallet or payment method added and managed entirely from the admin panel |
+| 🔐 **Role-Based Staff Access** | Granular account management ensures staff see only what their role requires |
 
 ---
 
 ## 📸 Screenshots
 
-> All screenshots are from a live production deployment at **Prince Cinema**.
+### 🎟️ Cinema App
 
-### Customer App
-| Home | Movie Detail | Schedule | Seat Map | Booking Confirmed |
-|------|-------------|----------|----------|-------------------|
-| ![](screenshots/android/android_1.png) | ![](screenshots/android/android_2.png) | ![](screenshots/android/android_3.png) | ![](screenshots/android/android_5.png) | ![](screenshots/android/android_6.png) |
+| Home | Movie Detail | Schedule | Seat Map | Confirmation |
+|:----:|:-----------:|:--------:|:--------:|:------------:|
+| <img src="screenshots/android/android_1.png" width="150"/> | <img src="screenshots/android/android_2.png" width="150"/> | <img src="screenshots/android/android_3.png" width="150"/> | <img src="screenshots/android/android_5.png" width="150"/> | <img src="screenshots/android/android_6.png" width="150"/> |
 
-### Admin App
-| Main Menu | Movies | Schedule (Bulk) | Admit Reports | Profit Calculator |
-|-----------|--------|----------------|---------------|-------------------|
-| ![](screenshots/admin/admin_18.jpeg) | ![](screenshots/admin/admin_7.jpeg) | ![](screenshots/admin/admin_6.jpeg) | ![](screenshots/admin/admin_16.jpeg) | ![](screenshots/admin/admin_11.jpeg) |
+### 🎛️ Admin Control App
 
-| Concession Reports | Advertisement | Payment Methods | Delete Management | Manage Admits |
-|-------------------|---------------|-----------------|-------------------|---------------|
-| ![](screenshots/admin/admin_10.jpeg) | ![](screenshots/admin/admin_3.jpeg) | ![](screenshots/admin/admin_9.jpeg) | ![](screenshots/admin/admin_15.jpeg) | ![](screenshots/admin/admin_17.jpeg) |
+| Navigation | Movies | Bulk Schedule | Admits | Admit Reports |
+|:----------:|:------:|:-------------:|:------:|:-------------:|
+| <img src="screenshots/admin/admin_18.jpeg" width="150"/> | <img src="screenshots/admin/admin_8.jpeg" width="150"/> | <img src="screenshots/admin/admin_6.jpeg" width="150"/> | <img src="screenshots/admin/admin_17.jpeg" width="150"/> | <img src="screenshots/admin/admin_16.jpeg" width="150"/> |
+
+| Analytics | Concessions | Profit Calculator | Advertisements | Delete Management |
+|:---------:|:-----------:|:-----------------:|:--------------:|:-----------------:|
+| <img src="screenshots/admin/admin_4.jpeg" width="150"/> | <img src="screenshots/admin/admin_10.jpeg" width="150"/> | <img src="screenshots/admin/admin_11.jpeg" width="150"/> | <img src="screenshots/admin/admin_3.jpeg" width="150"/> | <img src="screenshots/admin/admin_15.jpeg" width="150"/> |
+
+---
+
+## 💼 Licensing & Acquisition
+
+This platform is **production-proven** and available for licensing or full acquisition. Whether you are a cinema operator looking to deploy immediately, or a business looking to own and build on top of the product, the following options are open for discussion.
+
+| Option | What's Included |
+|--------|----------------|
+| 🏢 **Deployment License** | Full system deployed, branded, and configured for your cinema |
+| 💻 **Source Code License** | Complete Android source code for both apps |
+| 🔄 **White-Label License** | Fully rebranded version customized to your business identity |
+| 🤝 **Full Acquisition** | Complete ownership transfer of the product and all source assets |
+
+**To inquire, open an [Issue](../../issues) or reach out via the contact on this profile.**
 
 ---
 
 ## 🔒 Repository Notice
 
-This repository serves as a **public showcase** of the Prince Cinema platform. The source code is proprietary and not available for public access. All screenshots are from a live production deployment.
+This repository is a **public product showcase only**. The source code for both apps is proprietary and not publicly available. All screenshots are taken from a live production deployment.
 
 ---
 
 <div align="center">
 
-**Built with ❤️ for Prince Cinema**  
+**Prince Cinema — Built for Operators. Loved by Audiences.**
+
 *Your Entertainment — Our Screen*
 
 </div>
