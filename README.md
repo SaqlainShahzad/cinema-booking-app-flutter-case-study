@@ -139,126 +139,222 @@ A powerful, role-aware back-office platform organized into four control modules.
 
 ### 🎬 MOVIES Control
 
-<img src="screenshots/admin/admin_8.jpeg" width="250" align="right"/>
+<table>
+<tr>
+<td width="260">
+<img src="screenshots/admin/admin_8.jpeg" width="250"/>
+</td>
+<td>
 
 The complete movie management hub — from adding a new title to scheduling its entire run.
 
-<br clear="right"/>
+Three actions cover the full lifecycle:
+- **Add & Manage Movies** — build and maintain the catalogue
+- **Set Movie Schedule** — create showtimes with Single Day or Bulk mode
+- **Manage Schedule** — update or remove existing shows
+
+</td>
+</tr>
+</table>
 
 #### Add & Manage Movies
 
-<img src="screenshots/admin/admin_7.jpeg" width="250" align="right"/>
-<img src="screenshots/admin/admin_14.jpeg" width="250" align="right"/>
+<table>
+<tr>
+<td width="260">
+<img src="screenshots/admin/admin_7.jpeg" width="250"/>
+</td>
+<td width="260">
+<img src="screenshots/admin/admin_14.jpeg" width="250"/>
+</td>
+<td>
 
-- Add new movies with all metadata: title, release date, genre, duration, synopsis, YouTube trailer link, and cast
-- Browse the full movie catalogue with poster thumbnails and key details at a glance
+- Add movies with full metadata: title, release date, genre, duration, synopsis, YouTube trailer link, and cast
+- Browse the catalogue with poster thumbnails and key details at a glance
 - Search by name or genre
 - Per-movie **Edit** and **Delete** controls
 
-<br clear="right"/>
+</td>
+</tr>
+</table>
 
-#### Set Movie Schedule
+#### Set Movie Schedule — Bulk Mode
 
-<img src="screenshots/admin/admin_6.jpeg" width="250" align="right"/>
+<table>
+<tr>
+<td width="260">
+<img src="screenshots/admin/admin_6.jpeg" width="250"/>
+</td>
+<td>
 
 - **Single Day** mode for one-off scheduling
-- **Bulk Schedule** mode to programme a movie across an entire date range in a single operation — select the range, pick days of the week, add showtimes, done
+- **Bulk Schedule** mode — select a date range, pick days of the week, add showtimes, and schedule the entire run in one operation
 - Assign a named Screen or Hall per schedule entry
 - Set ticket price and seat capacity — capacity auto-locks to the configured hall size
 
-<br clear="right"/>
-
-#### Manage Schedule
-
-- View, edit, and remove any existing scheduled show
-- Full forward visibility into the upcoming programme
+</td>
+</tr>
+</table>
 
 ---
 
 ### 🎟️ ADMITS Control
 
-<img src="screenshots/admin/admin_2.jpeg" width="250" align="right"/>
+<table>
+<tr>
+<td width="260">
+<img src="screenshots/admin/admin_2.jpeg" width="250"/>
+</td>
+<td>
 
 Everything related to ticket issuance and booking management in one place.
 
-<br clear="right"/>
+Two actions cover the full admits workflow:
+- **Admit Booking** — issue tickets directly from the admin app
+- **Admits Management** — search, filter, and review all bookings
+
+</td>
+</tr>
+</table>
 
 #### Admit Booking
 
-<img src="screenshots/admin/admin_5.jpeg" width="250" align="right"/>
+<table>
+<tr>
+<td width="260">
+<img src="screenshots/admin/admin_5.jpeg" width="250"/>
+</td>
+<td>
 
 - Staff can book tickets directly from the admin app on behalf of walk-in customers
 - Date and movie selector surfaces all available showtimes for the chosen day
 - Dedicated **Staff Booking** mode for internal and complimentary admissions — tracked separately from customer revenue
 
-<br clear="right"/>
+</td>
+</tr>
+</table>
 
 #### Admits Management
 
-<img src="screenshots/admin/admin_17.jpeg" width="250" align="right"/>
+<table>
+<tr>
+<td width="260">
+<img src="screenshots/admin/admin_17.jpeg" width="250"/>
+</td>
+<td>
 
 - Searchable, filterable list of all bookings across any date range
 - Filter by booking type, payment method, or date
 - Each record displays: reference ID, movie, date, showtime, seat count, amount, and confirmation status
 - Staff bookings are visually distinct from customer bookings throughout
 
-<br clear="right"/>
+</td>
+</tr>
+</table>
 
 ---
 
 ### 📊 ANALYTICS Control
 
-<img src="screenshots/admin/admin_4.jpeg" width="250" align="right"/>
+<table>
+<tr>
+<td width="260">
+<img src="screenshots/admin/admin_4.jpeg" width="250"/>
+</td>
+<td>
 
 Three dedicated reporting tools that give management a complete picture of business performance.
 
-<br clear="right"/>
+- **Admit Reports** — ticket sales and booking analytics
+- **Concession Reports** — POS and product sales analytics
+- **Profit Calculator** — full P&L across all revenue sources
+
+</td>
+</tr>
+</table>
 
 #### Admit Reports
 
-<img src="screenshots/admin/admin_1.jpeg" width="250" align="right"/>
-<img src="screenshots/admin/admin_16.jpeg" width="250" align="right"/>
+<table>
+<tr>
+<td width="260">
+<img src="screenshots/admin/admin_1.jpeg" width="250"/>
+</td>
+<td width="260">
+<img src="screenshots/admin/admin_16.jpeg" width="250"/>
+</td>
+<td>
 
 - Top KPI tiles — total admits, revenue, seats sold, and box seats sold — always visible at a glance
 - Full transaction log searchable by customer name, movie, or booking reference
 - Filters: booking type (Hall / Gallery / Box) and payment method
 - Downloadable reports: **Daily · Weekly · Monthly · Overall**
 
-<br clear="right"/>
+</td>
+</tr>
+</table>
 
 #### Concession Reports
 
-<img src="screenshots/admin/admin_10.jpeg" width="250" align="right"/>
-<img src="screenshots/admin/admin_12.jpeg" width="250" align="right"/>
+<table>
+<tr>
+<td width="260">
+<img src="screenshots/admin/admin_10.jpeg" width="250"/>
+</td>
+<td width="260">
+<img src="screenshots/admin/admin_12.jpeg" width="250"/>
+</td>
+<td>
 
 - Tracks revenue, cost, and net profit for all POS and concession sales
 - **Configurable Business Day window** — define the operating hours that constitute a "day" to match real cinema schedules rather than calendar midnight
 - Itemized transaction log with timestamps and sale type
-- Period selector: today, or any custom date range
+- Period selector: today or any custom date range
 - Downloadable reports: **Daily · Monthly · Overall**
 
-<br clear="right"/>
+</td>
+</tr>
+</table>
 
 #### Profit Calculator
 
-<img src="screenshots/admin/admin_11.jpeg" width="250" align="right"/>
+<table>
+<tr>
+<td width="260">
+<img src="screenshots/admin/admin_11.jpeg" width="250"/>
+</td>
+<td>
 
 - Full P&L summary for any selected date range
 - Breaks down profit by source: Ticket Sales, POS & Concessions (Products + Rentals), and Manual Adjustments
 - Ticket profit calculated at the cinema's configured revenue-share percentage
 - Downloadable PDF summary report for accounting and ownership review
 
-<br clear="right"/>
+</td>
+</tr>
+</table>
 
 ---
 
 ### ⚙️ SETTINGS Control
 
-<img src="screenshots/admin/admin_13.jpeg" width="250" align="right"/>
+<table>
+<tr>
+<td width="260">
+<img src="screenshots/admin/admin_13.jpeg" width="250"/>
+</td>
+<td>
 
 System configuration and administration — four tools that keep the platform running correctly.
 
-<br clear="right"/>
+- **Manage Users** — staff accounts and role-based access
+- **Advertisement** — manage banners shown inside the customer app
+- **Payment Methods** — configure accepted payment options
+- **Delete History** — safely clean up old operational data
+
+</td>
+</tr>
+</table>
 
 #### Manage Users
 
@@ -267,29 +363,48 @@ System configuration and administration — four tools that keep the platform ru
 
 #### Advertisement Management
 
-<img src="screenshots/admin/admin_3.jpeg" width="250" align="right"/>
+<table>
+<tr>
+<td width="260">
+<img src="screenshots/admin/admin_3.jpeg" width="250"/>
+</td>
+<td>
 
 - Upload and manage promotional banners that appear inside the customer-facing Cinema App
 - Each advertisement supports a banner image, a display title, and an external link
 - Toggle ads between **Active** and **Hidden** without permanently removing them
 - Full **Edit / Hide / Delete** controls per advertisement entry
 
-<br clear="right"/>
+</td>
+</tr>
+</table>
 
 #### Payment Methods
 
-<img src="screenshots/admin/admin_9.jpeg" width="250" align="right"/>
+<table>
+<tr>
+<td width="260">
+<img src="screenshots/admin/admin_9.jpeg" width="250"/>
+</td>
+<td>
 
 - Configure which payment options are presented to customers at checkout
 - Add any method with: name, account number, account holder name, and display icon
 - Supports any local wallet or payment service (e.g. JazzCash, Bkash, Nagad, cash)
 - Manage and update without requiring a code change or app update
 
-<br clear="right"/>
+</td>
+</tr>
+</table>
 
 #### Delete History
 
-<img src="screenshots/admin/admin_15.jpeg" width="250" align="right"/>
+<table>
+<tr>
+<td width="260">
+<img src="screenshots/admin/admin_15.jpeg" width="250"/>
+</td>
+<td>
 
 A safe, controlled tool for cleaning up old operational data.
 
@@ -298,7 +413,9 @@ A safe, controlled tool for cleaning up old operational data.
 - Protected categories: future schedules, advance bookings, today's activity, user accounts, movies, and products
 - Flexible date range picker with quick-access presets for common cleanup tasks
 
-<br clear="right"/>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -359,7 +476,7 @@ A safe, controlled tool for cleaning up old operational data.
 | 🕐 **Configurable Business Day** | Custom operating hour windows for accurate daily reporting that reflects real cinema schedules |
 | 📊 **Multi-Source P&L Calculator** | Combines ticket revenue share, POS, concessions, and manual adjustments into one P&L view |
 | 🛡️ **Safe Delete System** | Auto-protects current and future data — past records only, with confirmation gates |
-| 📄 **Multi-Level Downloadable Reports** | PDF and structured exports for admits, concessions, and profit at daily, monthly, and all-time levels |
+| 📄 **Multi-Level Downloadable Reports** | PDF exports for admits, concessions, and profit at daily, monthly, and all-time levels |
 | 🎟️ **Staff Booking Mode** | Internal and complimentary bookings tracked separately from customer transactions |
 | 📢 **In-App Advertisement Delivery** | Admin-managed banners served live inside the customer-facing app — no update required |
 | 💳 **Flexible Payment Configuration** | Any local wallet or payment method added and managed entirely from the admin panel |
