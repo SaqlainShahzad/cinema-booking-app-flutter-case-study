@@ -17,11 +17,11 @@ Two dedicated apps — one for customers, one for operators — working in perfe
 
 ## 📖 Overview
 
-**Prince Cinema** is a dual-app system designed to run every aspect of a cinema business — from customer-facing ticket booking to back-office analytics and staff management. The platform is purpose-built for Pakistani cinema operators and supports PKR currency, local payment gateways, and real-world cinema workflows.
+**Prince Cinema** is a dual-app system designed to run every aspect of a cinema business — from customer-facing ticket booking to back-office analytics and staff management. The platform is purpose-built for cinema operators and supports real-world cinema workflows.
 
 | App | Audience | Core Purpose |
 |-----|----------|-------------|
-| 🎟️ **Cinema App** | General Public | Browse movies, view schedules, book seats, and get tickets |
+| 🎟️ **Cinema App** | General Public | Browse movies, view schedules, book seats from dynamic seatmap, and get tickets |
 | 🎛️ **Admin Control** | Cinema Staff & Management | Manage movies, admits, revenue, advertisements, and settings |
 
 > **Note:** Source code is private. This repository documents the product's UI/UX, features, and business logic.
@@ -33,7 +33,7 @@ Two dedicated apps — one for customers, one for operators — working in perfe
 The customer-facing app delivers a premium movie booking experience with a sleek dark-themed interface.
 
 ### 🏠 Home Screen
-<img src="screenshots/android/android_1.jpg" width="280" align="right"/>
+<img src="screenshots/android/android_1.png" width="280" align="right"/>
 
 - **Featured Movie Banner** — Full-screen promotional carousel with trailer button
 - **Today's Shows** — Quick-access horizontal scroll of current screenings
@@ -45,7 +45,7 @@ The customer-facing app delivers a premium movie booking experience with a sleek
 ---
 
 ### 🎥 Movie Detail Page
-<img src="screenshots/android/android_2.jpg" width="280" align="right"/>
+<img src="screenshots/android/android_2.png" width="280" align="right"/>
 
 Each movie page contains everything a customer needs to make a booking decision:
 
@@ -61,8 +61,8 @@ Each movie page contains everything a customer needs to make a booking decision:
 
 ### 📅 Schedule & Show Browser
 
-<img src="screenshots/android/android_3.jpg" width="280" align="right"/>
-<img src="screenshots/android/android_4.jpg" width="280" align="right"/>
+<img src="screenshots/android/android_3.png" width="280" align="right"/>
+<img src="screenshots/android/android_4.png" width="280" align="right"/>
 
 - **Date-scrollable schedule** — browse Today, Tomorrow, and upcoming dates
 - Shows listed by movie with showtime chips
@@ -74,7 +74,7 @@ Each movie page contains everything a customer needs to make a booking decision:
 ---
 
 ### 💺 Interactive Seat Map
-<img src="screenshots/android/android_5.jpg" width="280" align="right"/>
+<img src="screenshots/android/android_5.png" width="280" align="right"/>
 
 One of the app's flagship features — a fully interactive hall layout:
 
@@ -89,7 +89,7 @@ One of the app's flagship features — a fully interactive hall layout:
 ---
 
 ### ✅ Booking Confirmation
-<img src="screenshots/android/android_6.jpg" width="280" align="right"/>
+<img src="screenshots/android/android_6.png" width="280" align="right"/>
 
 Post-booking flow is clean and informative:
 
