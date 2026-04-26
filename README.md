@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Cinema App Banner](screenshots/android/android_1.jpg)
+![Cinema App Banner](screenshots/android/android_1.png)
 
 **A complete, production-ready cinema operations platform built for the modern multiplex.**  
 Two dedicated apps — one for customers, one for operators — working in perfect sync.
@@ -110,13 +110,13 @@ A comprehensive back-office platform for cinema operators, organized into four m
 ---
 
 ### 🎬 MOVIES Control
-<img src="screenshots/admin/admin_8.jpg" width="260" align="right"/>
+<img src="screenshots/admin/admin_8.jpeg" width="260" align="right"/>
 
 **3 Actions** — full movie lifecycle management:
 
 #### Add & Manage Movies
-<img src="screenshots/admin/admin_7.jpg" width="260" align="right"/>
-<img src="screenshots/admin/admin_14.jpg" width="260" align="right"/>
+<img src="screenshots/admin/admin_7.jpeg" width="260" align="right"/>
+<img src="screenshots/admin/admin_14.jpeg" width="260" align="right"/>
 
 - Add movies with: Name, Release Date, Genre, Duration, Description, Trailer Link (YouTube), Cast
 - Browse all 28+ movies with poster thumbnails, genre, runtime
@@ -126,7 +126,7 @@ A comprehensive back-office platform for cinema operators, organized into four m
 <br clear="right"/>
 
 #### Set Movie Schedule — Bulk Mode
-<img src="screenshots/admin/admin_6.jpg" width="260" align="right"/>
+<img src="screenshots/admin/admin_6.jpeg" width="260" align="right"/>
 
 - **Single Day** or **Bulk Schedule** mode
 - Bulk Mode: define a date range, select days of week (Mon–Sun), add multiple showtimes in one operation
@@ -142,12 +142,12 @@ A comprehensive back-office platform for cinema operators, organized into four m
 ---
 
 ### 🎟️ ADMITS Control
-<img src="screenshots/admin/admin_2.jpg" width="260" align="right"/>
+<img src="screenshots/admin/admin_2.jpeg" width="260" align="right"/>
 
 **2 Actions** — ticket booking and management:
 
 #### Admit Booking
-<img src="screenshots/admin/admin_5.jpg" width="260" align="right"/>
+<img src="screenshots/admin/admin_5.jpeg" width="260" align="right"/>
 
 - Date selector with day-of-week display
 - Movie selection by date with all available showtimes
@@ -156,7 +156,7 @@ A comprehensive back-office platform for cinema operators, organized into four m
 <br clear="right"/>
 
 #### Admits Management
-<img src="screenshots/admin/admin_17.jpg" width="260" align="right"/>
+<img src="screenshots/admin/admin_17.jpeg" width="260" align="right"/>
 
 - Full booking list with search — 258 bookings shown in demo
 - Filter by date range (e.g. Jan 01 – Jan 26)
@@ -168,13 +168,13 @@ A comprehensive back-office platform for cinema operators, organized into four m
 ---
 
 ### 📊 ANALYTICS Control
-<img src="screenshots/admin/admin_4.jpg" width="260" align="right"/>
+<img src="screenshots/admin/admin_4.jpeg" width="260" align="right"/>
 
 **3 Actions** — data-driven decision making:
 
 #### Admit Reports
-<img src="screenshots/admin/admin_1.jpg" width="260" align="right"/>
-<img src="screenshots/admin/admin_16.jpg" width="260" align="right"/>
+<img src="screenshots/admin/admin_1.jpeg" width="260" align="right"/>
+<img src="screenshots/admin/admin_16.jpeg" width="260" align="right"/>
 
 Real-time KPI tiles at the top:
 
@@ -192,8 +192,8 @@ Real-time KPI tiles at the top:
 <br clear="right"/>
 
 #### Concession Reports
-<img src="screenshots/admin/admin_10.jpg" width="260" align="right"/>
-<img src="screenshots/admin/admin_12.jpg" width="260" align="right"/>
+<img src="screenshots/admin/admin_10.jpeg" width="260" align="right"/>
+<img src="screenshots/admin/admin_12.jpeg" width="260" align="right"/>
 
 - Revenue · Cost · Net Profit · Total transactions
 - **Business Day** window configurable (demo: 6:00 PM – 6:00 AM)
@@ -204,7 +204,7 @@ Real-time KPI tiles at the top:
 <br clear="right"/>
 
 #### Profit Calculator
-<img src="screenshots/admin/admin_11.jpg" width="260" align="right"/>
+<img src="screenshots/admin/admin_11.jpeg" width="260" align="right"/>
 
 Full P&L dashboard for a selected date range:
 
@@ -224,7 +224,7 @@ Full P&L dashboard for a selected date range:
 ---
 
 ### ⚙️ SETTINGS Control
-<img src="screenshots/admin/admin_13.jpg" width="260" align="right"/>
+<img src="screenshots/admin/admin_13.jpeg" width="260" align="right"/>
 
 **4 Actions** — system configuration:
 
@@ -233,7 +233,7 @@ Full P&L dashboard for a selected date range:
 - Role-based access control
 
 #### Advertisement Management
-<img src="screenshots/admin/admin_3.jpg" width="260" align="right"/>
+<img src="screenshots/admin/admin_3.jpeg" width="260" align="right"/>
 
 - 12 active ads in demo
 - Upload banner images with external URL links
@@ -244,7 +244,7 @@ Full P&L dashboard for a selected date range:
 <br clear="right"/>
 
 #### Payment Methods
-<img src="screenshots/admin/admin_9.jpg" width="260" align="right"/>
+<img src="screenshots/admin/admin_9.jpeg" width="260" align="right"/>
 
 - Manage accepted payment options (JazzCash, Bkash, Nagad, etc.)
 - Fields: Method Name · Account Number · Account Name · Icon type
@@ -253,7 +253,7 @@ Full P&L dashboard for a selected date range:
 <br clear="right"/>
 
 #### Delete History (Data Management)
-<img src="screenshots/admin/admin_15.jpg" width="260" align="right"/>
+<img src="screenshots/admin/admin_15.jpeg" width="260" align="right"/>
 
 A carefully guarded data cleanup tool with built-in safety mechanisms:
 
@@ -318,16 +318,16 @@ Cinema App (Customer)
 ### Customer App
 | Home | Movie Detail | Schedule | Seat Map | Booking Confirmed |
 |------|-------------|----------|----------|-------------------|
-| ![](screenshots/android/android_1.jpg) | ![](screenshots/android/android_2.jpg) | ![](screenshots/android/android_3.jpg) | ![](screenshots/android/android_5.jpg) | ![](screenshots/android/android_6.jpg) |
+| ![](screenshots/android/android_1.png) | ![](screenshots/android/android_2.png) | ![](screenshots/android/android_3.png) | ![](screenshots/android/android_5.png) | ![](screenshots/android/android_6.png) |
 
 ### Admin App
 | Main Menu | Movies | Schedule (Bulk) | Admit Reports | Profit Calculator |
 |-----------|--------|----------------|---------------|-------------------|
-| ![](screenshots/admin/admin_18.jpg) | ![](screenshots/admin/admin_7.jpg) | ![](screenshots/admin/admin_6.jpg) | ![](screenshots/admin/admin_16.jpg) | ![](screenshots/admin/admin_11.jpg) |
+| ![](screenshots/admin/admin_18.jpeg) | ![](screenshots/admin/admin_7.jpeg) | ![](screenshots/admin/admin_6.jpeg) | ![](screenshots/admin/admin_16.jpeg) | ![](screenshots/admin/admin_11.jpeg) |
 
 | Concession Reports | Advertisement | Payment Methods | Delete Management | Manage Admits |
 |-------------------|---------------|-----------------|-------------------|---------------|
-| ![](screenshots/admin/admin_10.jpg) | ![](screenshots/admin/admin_3.jpg) | ![](screenshots/admin/admin_9.jpg) | ![](screenshots/admin/admin_15.jpg) | ![](screenshots/admin/admin_17.jpg) |
+| ![](screenshots/admin/admin_10.jpeg) | ![](screenshots/admin/admin_3.jpeg) | ![](screenshots/admin/admin_9.jpeg) | ![](screenshots/admin/admin_15.jpeg) | ![](screenshots/admin/admin_17.jpeg) |
 
 ---
 
