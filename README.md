@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="screenshots/android/android_1.png" width="100%"/>
+
 
 # 🎬 Prince Cinema
 ### Full-Stack Cinema Management System
@@ -45,6 +45,28 @@ Two dedicated apps — one for your customers, one for your team.
 > **This repository is a product showcase.** Source code is private and available for licensing. See [Licensing & Acquisition](#-licensing--acquisition).
 
 ---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| 📱 **Frontend** | Flutter (Dart) |
+| ☁️ **Backend & Database** | Firebase (Firestore, Auth) |
+| 🖼️ **Media Management** | Cloudinary |
+
+---
+
+## 🚀 Live on Google Play Store
+
+Both apps are live and available for download on the **Google Play Store**.
+
+| App | Audience |
+|-----|----------|
+| 🎟️ [**Cinema App**](https://play.google.com/store/apps/details?id=com.princecine.prince_cinema&pcampaignid=web_share) | General Public — Browse, book, and get tickets |
+| 🎛️ [**Admin Control App**](https://play.google.com/store/apps/details?id=com.princecine.prince_cinema_admin&pcampaignid=web_share) | Cinema Staff — Full operations dashboard |
+
+---
+
 
 ## 📱 Cinema App — Customer Experience
 
