@@ -537,7 +537,10 @@ This platform is **production-proven** and available for licensing or full acqui
 | 🔄 **White-Label License** | Fully rebranded version customized to your business identity |
 | 🤝 **Full Acquisition** | Complete ownership transfer of the product and all source assets |
 
-**To inquire, open an [Issue](../../issues) or reach out via the contact on this profile.**
+**Interested in licensing or acquiring this product? Get in touch:**
+
+- 📧 **Email:** saqlain.shahzad450@email.com
+- 📱 **WhatsApp:** +923334317514
 
 ---
 
