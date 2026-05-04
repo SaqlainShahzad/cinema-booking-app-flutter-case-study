@@ -2,7 +2,10 @@
 
 
 
-# 🎬 Prince Cinema
+<h1>
+  <img src="prince_cinema_icon.png" width="60" height="60" style="vertical-align: middle; border-radius: 14px;" />
+  &nbsp; Prince Cinema
+</h1>
 ### Full-Stack Cinema Management System
 
 **A complete, production-ready platform for modern cinema operations.**
