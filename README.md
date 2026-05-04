@@ -3,7 +3,7 @@
 
 
 
-<img src="prince_cinema_icon.png" width="80" height="80" />
+<img src="prince_cinema_icon.png" width="120" height="120" />
 
 # Prince Cinema
 ### Full-Stack Cinema Management System
